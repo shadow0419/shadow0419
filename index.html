@@ -1,1533 +1,1585 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Haoming Portfolio</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haoming Portfolio</title>
-
-  <!--
+    <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
 
-  <!--
+    <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!--
+    <!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
-  <!--
+  <body>
+    <!--
     - #MAIN
   -->
 
-  <main>
-
-    <!--
+    <main>
+      <!--
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-avatar.png"
+              alt="Richard hanrick"
+              width="80"
+            />
+          </figure>
 
-      <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Haoming Li</h1>
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
+            <p class="title">Blockchain & FullStack Developer</p>
+          </div>
 
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Haoming Li</h1>
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
 
-          <p class="title">Blockchain & FullStack Developer</p>
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
         </div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
 
-      </div>
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
 
-      <div class="sidebar-info_more">
+                <a href="mailto:richard@example.com" class="contact-link"
+                  >smartfinance0419@gmail.com</a
+                >
+              </div>
+            </li>
 
-        <div class="separator"></div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
 
-        <ul class="contacts-list">
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
 
-          <li class="contact-item">
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (660) 319 4563</a
+                >
+              </div>
+            </li>
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">smartfinance0419@gmail.com</a>
-            </div>
+                <time datetime="1982-06-23">Sep 27, 1994</time>
+              </div>
+            </li>
 
-          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
 
-          <li class="contact-item">
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+                <address>Mong Kok, Hong Kong</address>
+              </div>
+            </li>
+          </ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+          <div class="separator"></div>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (660) 319 4563</a>
-            </div>
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-          </li>
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-          <li class="contact-item">
+            <li class="social-item">
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">Sep 27, 1994</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Mong Kok, Hong Kong</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
+      <!--
       - #main-content
     -->
 
-    <div class="main-content">
-
-      <!--
+      <div class="main-content">
+        <!--
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
 
-        <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Skill</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Skill</button>
-          </li>
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-  
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
+        <!--
         - #ABOUT
       -->
 
-      <article class="about  active" data-page="about">
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+          <section class="about-text">
+            <p>
+              I am available to work full-time and to change my time zone to
+              reach client goals. As well as this, I will maintain client trust.
+              It is not easy to maintain trust with clients to everyone, but I
+              will try my best to maintain the relationship.
+            </p>
 
-        <section class="about-text">
-          <p>
-            I am available to work full-time and to change my time zone to reach client goals. As well as this, I will maintain client trust. It is not easy to maintain trust with clients to everyone, but I will try my best to maintain the relationship.
-          </p>
+            <p>
+              Since grade school, I have been a passionate software engineer.
+              Working with remote clients in a distributed environment using
+              agile methodologies is second nature to me. A BlockChain and
+              Full-stack developer with awesome web technical skills:
+              development from scratch, API integration, modules implementation,
+              extensions, integration with external services, custom
+              optimization.
+            </p>
+          </section>
 
-          <p>
-            Since grade school, I have been a passionate software engineer. Working with remote clients in a distributed environment using agile methodologies is second nature to me. A BlockChain and Full-stack developer with awesome web technical skills: development from scratch, API integration, modules implementation, extensions, integration with external services, custom optimization.
-          </p>
-        </section>
-
-
-        <!--
+          <!--
           - service
         -->
 
-        <section class="service">
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg
+                "
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
 
-          <ul class="service-list">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">E-Commerce Development</h4>
 
-            <li class="service-item">
+                  <p class="service-item-text">
+                    My mission is to build an innovative and attractive
+                    e-commerce site that has great SEo, high performance and
+                    good UX.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">     E-Commerce Development</h4>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    NFT Marketplace Development
+                  </h4>
 
-                <p class="service-item-text">
-             
-                  My mission is to build an innovative and attractive e-commerce site that has great SEo, high performance and good UX.
-                </p>
-              </div>
+                  <p class="service-item-text">
+                    Whether it's a simple landing page with a mint function or a
+                    beautiful, complex, in-depth website I deliver A+ quality.
+                  </p>
+                </div>
+              </li>
 
-            </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
 
-            <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Dex/Defi Development</h4>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+                  <p class="service-item-text">
+                    Get your own platform with me where you can trade and
+                    exchange your coins and bitcoins in this amazing crypto
+                    universe.
+                  </p>
+                </div>
+              </li>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"> NFT Marketplace Development</h4>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-                <p class="service-item-text">
-                 
-                  Whether it's a simple landing page with a mint function or a beautiful, complex, in-depth website I deliver A+ quality.
-                </p>
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Mobile Application Development
+                  </h4>
 
-            </li>
+                  <p class="service-item-text">
+                    Using cross platform language like lonic and react native,
+                    you can experiment with your ideas on your phone.
+                  </p>
+                </div>
+              </li>
 
-            <li class="service-item">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Smart Contract Development
+                  </h4>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Dex/Defi Development</h4>
+                  <p class="service-item-text">
+                    When ready we will deploy your contract to Rinkeby for
+                    testing and then to Mainnet for launch. Your images and
+                    metadata will never be exposed and I will be on-call in case
+                    any issues arise.
+                  </p>
+                </div>
+              </li>
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="camera icon"
+                    width="40"
+                  />
+                </div>
 
-                <p class="service-item-text">
-              
-                  Get your own platform with me where you can trade and exchange your coins and bitcoins in this amazing crypto universe.
-                </p>
-              </div>
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Game Development</h4>
 
-            </li>
+                  <p class="service-item-text">
+                    Make a P2E Game with your NFT and FT and play around with
+                    it, and make some money. so funny !!!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">   Mobile Application Development</h4>
-
-                <p class="service-item-text">
-               
-                  Using cross platform language like lonic and react native, you can experiment with your ideas on your phone.
-                </p>
-              </div>
-
-            </li>
-
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Smart Contract Development</h4>
-
-                <p class="service-item-text">
-               
-
-                  When ready we will deploy your contract to Rinkeby for testing and then to Mainnet for launch. Your images and metadata will never be exposed and I will be on-call in case any issues arise.
-                </p>
-              </div>
-
-            </li>
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title"> Game Development</h4>
-
-                <p class="service-item-text">
-               
-               
-                  Make a P2E Game with your NFT and FT and play around with it, and make some money. so funny !!! </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
+          <!--
           - testimonials
         -->
 
-        <section class="testimonials">
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-1.png"
+                      alt="Marty"
+                      width="60"
+                      data-testimonials-avatar
+                      class="testimonials-avatar"
+                    />
+                  </figure>
 
-          <ul class="testimonials-list has-scrollbar">
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Marty (CEO & Founder)
+                  </h4>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Marty" width="60" data-testimonials-avatar class="testimonials-avatar">
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Marty (CEO & Founder)</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-
-                    Haoming really does stand out among the web developers that are around today. We’ve wasted a huge amount of time, effort and money on developers who couldn’t see the project through or lacked our own personal vision or the ability to get things done.
-                    Working with Haoming opened our eyes to what was possible, both in terms of programming ability and also an incredible level of customer service. When made promises to meet deadlines, each one was met without breaking a sweat. When Haoming told us to not worry and to leave it to him we were initially a little worried. We shouldn’t have been, he hasn’t let us down at all in the five months we have been working together.
-                    
-                    I honestly wish there were more like Haoming, but I don’t think there are. It’s why he is, and will continue to be highly in demand. A hidden gem in the industry if there ever was one.
-                                    
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Haoming really does stand out among the web developers
+                      that are around today. We’ve wasted a huge amount of time,
+                      effort and money on developers who couldn’t see the
+                      project through or lacked our own personal vision or the
+                      ability to get things done. Working with Haoming opened
+                      our eyes to what was possible, both in terms of
+                      programming ability and also an incredible level of
+                      customer service. When made promises to meet deadlines,
+                      each one was met without breaking a sweat. When Haoming
+                      told us to not worry and to leave it to him we were
+                      initially a little worried. We shouldn’t have been, he
+                      hasn’t let us down at all in the five months we have been
+                      working together. I honestly wish there were more like
+                      Haoming, but I don’t think there are. It’s why he is, and
+                      will continue to be highly in demand. A hidden gem in the
+                      industry if there ever was one.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-2.png"
+                      alt="Antonino"
+                      width="60"
+                      data-testimonials-avatar
+                      class="testimonials-avatar"
+                    />
+                  </figure>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Antonino (CEO)
+                  </h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Antonino" width="60" data-testimonials-avatar class="testimonials-avatar">
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Antonino (CEO)</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-
-                    Finding a programmer to integrate our flagship web 3 with the NFT Marketplace proved to be more difficult than we’d anticipated. Repeatedly we were let down by developers, until, and totally by chance, Haoming was recommended to us by a customer. His knowledge and professionalism was nothing short of outstanding, and a two month job was completed almost three weeks early.
-                
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Finding a programmer to integrate our flagship web 3 with
+                      the NFT Marketplace proved to be more difficult than we’d
+                      anticipated. Repeatedly we were let down by developers,
+                      until, and totally by chance, Haoming was recommended to
+                      us by a customer. His knowledge and professionalism was
+                      nothing short of outstanding, and a two month job was
+                      completed almost three weeks early.
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-3.png"
+                      alt="Paul"
+                      width="60"
+                      data-testimonials-avatar
+                      class="testimonials-avatar"
+                    />
+                  </figure>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Paul Bywater (Client)
+                  </h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Paul" width="60" data-testimonials-avatar class="testimonials-avatar">
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Paul Bywater (Client)</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-
-                    Haoming was recommended to me by a mutual friend as a web developer. We discussed my requirements fully before going ahead with anything and he put together a package for me that met all my needs. I never felt pushed or pressured and the whole thing from start to finish was stress free and supportive.
-                    The website when completed completely surpassed all my expectations and I am totally thrilled. Any tweaks and edits that were needed were minimal and done quickly.
-                    Haoming continues to support me when I need things updated and changed and there is no waiting around for days to get things sorted.
-                    
-                    A completely brilliant and professional service that I am so happy I went with. There is so much choice in this field and it’s confusing about who the ‘right’ person to go with is. I am glad I found Haoming so early on in my search and would never use anyone else! Very skilled and clever guy who I can’t recommend enough!
-                                    
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Haoming was recommended to me by a mutual friend as a web
+                      developer. We discussed my requirements fully before going
+                      ahead with anything and he put together a package for me
+                      that met all my needs. I never felt pushed or pressured
+                      and the whole thing from start to finish was stress free
+                      and supportive. The website when completed completely
+                      surpassed all my expectations and I am totally thrilled.
+                      Any tweaks and edits that were needed were minimal and
+                      done quickly. Haoming continues to support me when I need
+                      things updated and changed and there is no waiting around
+                      for days to get things sorted. A completely brilliant and
+                      professional service that I am so happy I went with. There
+                      is so much choice in this field and it’s confusing about
+                      who the ‘right’ person to go with is. I am glad I found
+                      Haoming so early on in my search and would never use
+                      anyone else! Very skilled and clever guy who I can’t
+                      recommend enough!
+                    </p>
+                  </div>
                 </div>
+              </li>
 
-              </div>
-            </li>
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/avatar-4.png"
+                      alt="Chris"
+                      width="60"
+                      data-testimonials-avatar
+                      class="testimonials-avatar"
+                    />
+                  </figure>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Chris Vendilli (Freelancer)
+                  </h4>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Chris" width="60" data-testimonials-avatar class="testimonials-avatar">
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Chris Vendilli (Freelancer)</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-
-                    Haoming was recommended to us by a client who had achieved outstanding success utilizing his SEO techniques. After a meeting over Skype, Haoming quickly grasped what we wanted, and quickly set the necessary SEO techniques in motion. What impressed us most, aside from his undoubted knowledge of the Industry, was that he detailed his own methods for us, allowing us to maintain and monitor our own SEO, without the need of any recurring costs. I sincerely hope my testimonial does his work justice, as I really can’t find the words to recommend him highly enough.
-                
-                  </p>
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      Haoming was recommended to us by a client who had achieved
+                      outstanding success utilizing his SEO techniques. After a
+                      meeting over Skype, Haoming quickly grasped what we
+                      wanted, and quickly set the necessary SEO techniques in
+                      motion. What impressed us most, aside from his undoubted
+                      knowledge of the Industry, was that he detailed his own
+                      methods for us, allowing us to maintain and monitor our
+                      own SEO, without the need of any recurring costs. I
+                      sincerely hope my testimonial does his work justice, as I
+                      really can’t find the words to recommend him highly
+                      enough.
+                    </p>
+                  </div>
                 </div>
+              </li>
+            </ul>
+          </section>
 
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
+          <!--
           - testimonials modal
         -->
 
-        <div class="modal-container" data-modal-container>
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
 
-          <div class="overlay" data-overlay></div>
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
 
-          <section class="testimonials-modal">
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
 
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
               </div>
 
-            </div>
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
 
-          </section>
+                <time datetime="2021-06-14">14 June, 2021</time>
 
-        </div>
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were
+                    very pleased with the work done. She has a lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum
+                    dolor sit amet, ullamcous cididt consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels
+                    dolore magnarels alia.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
 
-
-        <!--
+          <!--
           - clients
         -->
 
-        <section class="clients">
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
 
-          <h3 class="h3 clients-title">Clients</h3>
+            <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
 
-          <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-5-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-6-color.png"
+                    alt="client logo"
+                  />
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
+        <!--
         - #RESUME
       -->
 
-      <article class="resume" data-page="resume">
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Education</h3>
             </div>
 
-            <h3 class="h3">Education</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Northeastern University, Boston, Massachusetts
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2012 — 2016</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Followed my passion in a core of prototyping and cloud
+                  computing classes. <br />
+                  Excelled in user experience and user interfaces.<br />
+                  Pursued a Generalist Scholars grant to study software
+                  architecture.
+                </p>
+              </li>
+            </ol>
+          </section>
 
-              <h4 class="h4 timeline-item-title">Northeastern University, Boston, Massachusetts
-              </h4>
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
 
-              <span>2012 — 2016</span>
-
-              <p class="timeline-text">
-                Followed my passion in a core of prototyping and cloud computing classes. <br />
-                Excelled in user experience and user interfaces.<br />
-                Pursued a Generalist Scholars grant to study software architecture.
-              </p>
-
-            </li>
-
-         
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+              <h3 class="h3">Experience</h3>
             </div>
 
-            <h3 class="h3">Experience</h3>
-          </div>
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  RDLand (BLOCKCHAIN DEVELOPER)
+                </h4>
 
-          <ol class="timeline-list">
+                <span>2022.2 - 2022.8</span>
 
-            <li class="timeline-item">
+                <p class="timeline-text">
+                  Explore Blockchain marketplace and research Blockchain
+                  technologies. <br />
+                  Generate NFT collection and metadata with client's layers and
+                  traits using hash-lip engine.<br />
+                  Build NFT minting website and make mint smart contract.<br />
+                  Build NFT marketplace with auction function.<br />
+                  Create and Mint business token and build staking token and
+                  claim rewards contract.<br />
+                  Layout the scale and scope of the software project and
+                  complete data structures and design patterns with team
+                  members.<br />
+                  Create project Git workflow and deployment automation on AWS,
+                  Firebase, Vercel.<br />
+                  Research design patterns, professional architecture,
+                  high-quality performance and security.
+                </p>
+              </li>
 
-              <h4 class="h4 timeline-item-title">RDLand (BLOCKCHAIN DEVELOPER)</h4>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Aurick Project Team (FULLSTACK DEVELOPER)
+                </h4>
 
-              <span>2022.2 - 2022.8</span>
+                <span>2021.10 - 2022.2</span>
 
-              <p class="timeline-text">
-                Explore Blockchain marketplace and research Blockchain technologies. <br />
-                Generate NFT collection and metadata with client's layers and traits using hash-lip engine.<br />
-                Build NFT minting website and make mint smart contract.<br />
-                Build NFT marketplace with auction function.<br />
-                Create and Mint business token and build staking token and claim rewards contract.<br />
-                Layout the scale and scope of the software project and complete data structures and design patterns with team members.<br />
-                Create project Git workflow and deployment automation on AWS, Firebase, Vercel.<br />
-                Research design patterns, professional architecture, high-quality performance and security.
-              </p>
+                <p class="timeline-text">
+                  Research, UI / UI design and implement technical
+                  specifications for the product based on client requirement.<br />
+                  Ensure projects are built to meet performance, security, SEO,
+                  and functional client requirement.<br />
+                  Assist with testing, debugging, documentation, and overall
+                  quality assurance of projects. Involved in the requirement
+                  analysis, design, development, review, deployment as well as
+                  in the testing of the project.<br />
+                  Improved the front-end architecture by reorganizing
+                  modules.<br />
+                  Built Part for Google Product Feed.<br />
+                  Worked with developers around the world to build software
+                  applications.
+                </p>
+              </li>
 
-            </li>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Adplorer, Paris, France (FRONT-END ENGINEER)
+                </h4>
 
-            <li class="timeline-item">
+                <span>2020.8 - 2021.6</span>
 
-              <h4 class="h4 timeline-item-title">Aurick Project Team (FULLSTACK DEVELOPER)</h4>
+                <p class="timeline-text">
+                  Lead the front-end development of a smart price
+                  recommendations platform used by large retail and eCommerce
+                  clients.<br />
+                  Worked with developers around the world to build software
+                  applications.<br />
+                  Implemented and managed companies Design System library.<br />
+                  Profiled critical components, eliminating wasting renders
+                  which dramatically improved performance.<br />
+                  Simplified the project structure, emphasizing re-usability and
+                  scalability.
+                </p>
+              </li>
 
-              <span>2021.10 - 2022.2</span>
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Coditation Systems, San Francisco, CA, US (FULLSTACK ENGINEER)
+                </h4>
 
-              <p class="timeline-text">
-                Research, UI / UI design and implement technical specifications for the product based on client requirement.<br />
-                Ensure projects are built to meet performance, security, SEO, and functional client requirement.<br />
-                Assist with testing, debugging, documentation, and overall quality assurance of projects. Involved in the requirement analysis, design, development, review, deployment as well as in the testing of the project.<br />
-                Improved the front-end architecture by reorganizing modules.<br />
-                Built Part for Google Product Feed.<br />
-                Worked with developers around the world to build software applications.
-              </p>
+                <span>2019.4 - 2020.5 </span>
 
-            </li>
+                <p class="timeline-text">
+                  Developed a widget management app for developers to list
+                  on-going project, run test, display bugs, and review comment
+                  using JavaScript, React.js, Node.js, and Express.js<br />
+                  Developed responsive React application to manage widget
+                  development workflow, such as displaying project info,
+                  automating testing request, and logging bug.<br />
+                  Developed React components for automation of group email
+                  notification, which is modular, testable, and easy to apply to
+                  similar applications.<br />
+                  Handled async HTTP request/response using JavaScript, Promise,
+                  and Ajax.<br />
+                  Created project Git workflow, and setup deployment procedure
+                  on AWS.
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
 
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">  Adplorer, Paris, France (FRONT-END ENGINEER)</h4>
-
-              <span>2020.8 - 2021.6</span>
-
-              <p class="timeline-text">
-
-                Lead the front-end development of a smart price recommendations platform used by large retail and eCommerce clients.<br />
-                Worked with developers around the world to build software applications.<br />
-                Implemented and managed companies Design System library.<br />
-                Profiled critical components, eliminating wasting renders which dramatically improved performance.<br />
-                Simplified the project structure, emphasizing re-usability and scalability.
-              </p>
-
-            </li>
-
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">
-                Coditation Systems, San Francisco, CA, US (FULLSTACK ENGINEER)</h4>
-
-              <span>2019.4 - 2020.5
-              </span>
-
-              <p class="timeline-text">
-
-                Developed a widget management app for developers to list on-going project, run test, display bugs, and review comment using JavaScript, React.js, Node.js, and Express.js<br />
-                Developed responsive React application to manage widget development workflow, such as displaying project info, automating testing request, and logging bug.<br />
-                Developed React components for automation of group email notification, which is modular, testable, and easy to apply to similar applications.<br />
-                Handled async HTTP request/response using JavaScript, Promise, and Ajax.<br />
-                Created project Git workflow, and setup deployment procedure on AWS.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-      
-
-      </article>
-
-
-
-      <!--
+        <!--
         - #BLOG
       -->
 
-      <article class="blog" data-page="skill">
+        <article class="blog" data-page="skill">
+          <header>
+            <h2 class="h2 article-title">My Skills</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">My Skills</h2>
-        </header>
+          <section class="skill">
+            <ul class="skills-list content-cardV2">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UX & UI DESIGN</h5>
+                  <data value="98">98%</data>
+                </div>
 
-        <section class="skill">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
 
-          <ul class="skills-list content-cardV2">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML & HTML5</h5>
+                  <data value="100">100%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">UX & UI DESIGN</h5>
-                <data value="98">98%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SCSS & STYLED COMPONENT</h5>
+                  <data value="100">100%</data>
+                </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">BOOTSTRAP && TAILWINDCSS</h5>
+                  <data value="95">95%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">HTML & HTML5</h5>
-                <data value="100">100%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MUI & ANTD</h5>
+                  <data value="95">95%</data>
+                </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JAVASCRIPT & TYPESCRIPT</h5>
+                  <data value="98">98%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">SCSS & STYLED COMPONENT</h5>
-                <data value="100">100%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">REACTJS & NEXTJS</h5>
+                  <data value="98">98%</data>
+                </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">REACT NATIVE</h5>
+                  <data value="95">95%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">BOOTSTRAP && TAILWINDCSS</h5>
-                <data value="95">95%</data>
-              </div>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">VUE & NUXTJS</h5>
+                  <data value="90">90%</data>
+                </div>
 
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
 
-            </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">PHP</h5>
+                  <data value="89">89%</data>
+                </div>
 
-            <li class="skills-item">
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 89%"></div>
+                </div>
+              </li>
 
-              <div class="title-wrapper">
-                <h5 class="h5">MUI & ANTD</h5>
-                <data value="95">95%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">JAVASCRIPT & TYPESCRIPT</h5>
-                <data value="98">98%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">REACTJS & NEXTJS</h5>
-                <data value="98">98%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">REACT NATIVE</h5>
-                <data value="95">95%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">VUE & NUXTJS</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">PHP</h5>
-                <data value="89">89%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 89%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">WORDPRESS/CMS</h5>
-                <data value="85">85%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-            </li>
-<!-- 
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WORDPRESS/CMS</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+              <!-- 
 
  -->
 
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">NODEJS & EXPRESSJS</h5>
-                <data value="99">99%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 99%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">DJANGO & FLASK</h5>
-                <data value="92">92%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 92%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">NESTJS</h5>
-                <data value="83">83%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 83%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">RUBY</h5>
-                <data value="92">92%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 92%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">GOLAND</h5>
-                <data value="89">89%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 89%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">GRAPHQL & HASURA</h5>
-                <data value="100">100%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">CODEIGNITER</h5>
-                <data value="95">95%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">MYSQL & POSTGRESQL</h5>
-                <data value="98">98%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">MONGODB</h5>
-                <data value="100">100%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">DYNAMODB</h5>
-                <data value="94">94%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 94%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">REDIS</h5>
-                <data value="92">92%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 92%;"></div>
-              </div>
-            </li>
-
-
-
-
-          </ul>
-
-
-
-          <ul class="skills-list content-cardV2">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SKATNET / CAIRO</h5>
-                <data value="95">95%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 95%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SMART CONTRACT</h5>
-                <data value="97">97%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 97%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SOLIDITY</h5>
-                <data value="98">98%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ETHEREUM</h5>
-                <data value="94">94%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 94%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">RUST</h5>
-                <data value="92">92%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 92%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">NFT - MARKETPLACE/MINT</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">DEFI & DEX</h5>
-                <data value="88">88%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 88%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">UNISWAP</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SOLANA</h5>
-                <data value="96">96%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 96%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WEB3</h5>
-                <data value="99">99%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 99%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SREMIX & HARDHAT</h5>
-                <data value="98">98%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ERC/BEP-20, 721, 1155</h5>
-                <data value="99">99%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 99%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">GITHUB & GITLAB && BITBUCKET</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">TRELLO & JIRA</h5>
-                <data value="100">100%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 100%;"></div>
-              </div>
-
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">NOTION</h5>
-                <data value="98">98%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">DOCKER & KUBERNETES</h5>
-                <data value="86">86%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 86%;"></div>
-              </div>
-            </li>
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">AWS & AZURE DEVOPS</h5>
-                <data value="98">98%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-            </li>
-            
-
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">GOOGLE CLOUD</h5>
-                <data value="93">93%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 93%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">FIREBASE & HEROKU</h5>
-                <data value="98">98%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 98%;"></div>
-              </div>
-            </li>
-
-            <li class="skills-item">
-              <div class="title-wrapper">
-                <h5 class="h5">DIGITAL OCEAN</h5>
-                <data value="90">90%</data>
-              </div>
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-            </li>
-
-          </ul>
-
-     
-
-        </section>
-
-        
-
-      </article>
-
-
-
-      <!--
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">NODEJS & EXPRESSJS</h5>
+                  <data value="99">99%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 99%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DJANGO & FLASK</h5>
+                  <data value="92">92%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 92%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">NESTJS</h5>
+                  <data value="83">83%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 83%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">RUBY</h5>
+                  <data value="92">92%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 92%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GOLAND</h5>
+                  <data value="89">89%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 89%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GRAPHQL & HASURA</h5>
+                  <data value="100">100%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">CODEIGNITER</h5>
+                  <data value="95">95%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MYSQL & POSTGRESQL</h5>
+                  <data value="98">98%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">MONGODB</h5>
+                  <data value="100">100%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DYNAMODB</h5>
+                  <data value="94">94%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 94%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">REDIS</h5>
+                  <data value="92">92%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 92%"></div>
+                </div>
+              </li>
+            </ul>
+
+            <ul class="skills-list content-cardV2">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SKATNET / CAIRO</h5>
+                  <data value="95">95%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 95%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SMART CONTRACT</h5>
+                  <data value="97">97%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 97%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SOLIDITY</h5>
+                  <data value="98">98%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ETHEREUM</h5>
+                  <data value="94">94%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 94%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">RUST</h5>
+                  <data value="92">92%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 92%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">NFT - MARKETPLACE/MINT</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DEFI & DEX</h5>
+                  <data value="88">88%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 88%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">UNISWAP</h5>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SOLANA</h5>
+                  <data value="96">96%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 96%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">WEB3</h5>
+                  <data value="99">99%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 99%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">SREMIX & HARDHAT</h5>
+                  <data value="98">98%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ERC/BEP-20, 721, 1155</h5>
+                  <data value="99">99%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 99%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GITHUB & GITLAB && BITBUCKET</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">TRELLO & JIRA</h5>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">NOTION</h5>
+                  <data value="98">98%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DOCKER & KUBERNETES</h5>
+                  <data value="86">86%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 86%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">AWS & AZURE DEVOPS</h5>
+                  <data value="98">98%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">GOOGLE CLOUD</h5>
+                  <data value="93">93%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 93%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">FIREBASE & HEROKU</h5>
+                  <data value="98">98%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 98%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">DIGITAL OCEAN</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web design</button>
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Applications</button>
+              <li class="filter-item">
+                <button data-filter-btn>Applications</button>
               </li>
 
-              <li class="select-item">
-                <button data-select-item>Web development</button>
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
               </li>
-
             </ul>
 
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-
-
-
-
-      <!--
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Finance</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Orizon</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Fundo</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Brawlhalla</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">DSM.</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MetaSpark</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="summary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Summary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="task manager"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Task Manager</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="#">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-9.png"
+                      alt="arrival"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Arrival</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
         - #CONTACT
       -->
 
-      <article class="contact" data-page="contact">
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
 
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7381.738237193735!2d114.164827!3d22.3207891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c7c24ee693%3A0x9546f62aa20a2278!2sMong%20Kok%20Station!5e0!3m2!1sen!2sus!4v1678474020443!5m2!1sen!2sus"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </figure>
+          </section>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7381.738237193735!2d114.164827!3d22.3207891!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400c7c24ee693%3A0x9546f62aa20a2278!2sMong%20Kok%20Station!5e0!3m2!1sen!2sus!4v1678474020443!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </figure>
-        </section>
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
 
-        <section class="contact-form">
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
 
-          <h3 class="h3 form-title">Contact Form</h3>
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
 
-          <form action="#" class="form" data-form>
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
+    <!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-  <!--
+    <!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
