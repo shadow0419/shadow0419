@@ -139,7 +139,10 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
-  /* background: rgba(0, 0, 0, 0.9); */
+  background: rgba(15, 25, 31, 0.452);
+  border-radius: 0 0 30px 30px;
+  box-shadow: rgb(95, 139, 214) 0px 0px 15px 0px;
+
 }
 #header.header-top .social-links,
 #header.header-top h2 {
@@ -263,7 +266,9 @@ h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  /* background: rgba(0, 0, 0, 0.9); */
+  background: rgba(15, 25, 31, 0.452);
+  border-radius: 0 0 30px 30px;
+  box-shadow: rgb(95, 139, 214) 0px 0px 15px 0px;
   transition: 0.3s;
   z-index: 999;
   margin-top: 0;
